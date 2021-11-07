@@ -1,0 +1,77 @@
+*{margin: 0; padding: 0}*
+
+body{
+    height: 600px;
+    font-size: 18px;
+    margin: 2%;
+    background: radial-gradient(#051933, black);
+    color: #FEFEFE;
+}
+
+h1 a{
+    font-size: 2em;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    color: #a3ffbf;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.exercicios {
+    padding-top: 3%;
+}
+
+.exercicios ul {
+    padding: 1em 1em;
+}
+
+.exercicios li a {
+    text-decoration: none;
+    color: #FEFEFE;
+}
+
+.exercicios li a:hover{
+    text-decoration: underline;
+    color: #a3ffbf;
+}
+
+main{
+    position: absolute;
+	left: 40%;
+	top: 30%;
+}
+
+#botao {
+    width: 250px;
+    height: 80px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #6d889e;
+    color: #FEFEFE;
+}
+
+form {
+    width: 300px;
+}
+
+input{
+    width: 200px;
+    background-color: #6d889e;
+}
+
+.botao-enviar {
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 85px;
+    height: 30px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background-color: #6d889e;
+    color: #FEFEFE;
+}
