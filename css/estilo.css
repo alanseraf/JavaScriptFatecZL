@@ -75,3 +75,18 @@ input{
     background-color: #6d889e;
     color: #FEFEFE;
 }
+
+@media screen and (max-width: 400px) 
+{
+    h1 a{
+        font-size: 1.5em;
+    } 
+    h2 {
+        font-size: 0.9em;
+    }
+    main{
+        position: absolute;
+        left: 16%;
+        top: 20%;
+    }
+}
