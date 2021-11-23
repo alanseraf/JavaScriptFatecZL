@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Exercício 3 JS</title>
+    <script src="js/ex3.js"></script>
+</head>
+<body>
+    <section class="titulo">
+        <h1><a href="index.html">JavaScript na WEB</a></h1>
+    </section>
+    <h2>Validação de senha com expressões regulares (regex)</h2>
+    <main>
+        <form name="cadastro" id="cadastro" method="get" onsubmit="return validar();">
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome"><br>
+            <label for="cpf">CPF</label><br>
+            <input type="text" name="cpf" id="cpf"><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+            <label for="confirma">Confirmar senha</label><br>
+            <input type="password" name="confirma" id="confirma"><br>
+            <input class="botao-enviar" type="submit" name="enviar" id="enviar" value="enviar"> <input class="botao-enviar" type="reset" name="limpar" id="limpar" value="limpar"> 
+        </main>
+    </form>
+</body>
+</html>
